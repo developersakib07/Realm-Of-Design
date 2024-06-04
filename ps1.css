@@ -1,0 +1,320 @@
+
+/* =========================================================================navbar_section============================================================== */
+
+.nav_section{
+    margin-top:13px;
+}
+
+.dropdown-menu .dropdown-item{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    border:none;
+}
+ul .dropdown-menu{
+    background-color: transparent;
+    text-transform: uppercase;
+    border:none;
+    display:none;
+}
+ul .dropdown-menu .dropdown-item:hover{
+    background-color: transparent;
+    color: red;
+}
+.navbar-nav{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height:20px;
+}
+.navbar-brand img{
+    width: 83%;
+    max-width:100%
+}
+.nav_section{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+.navbar .collapse .navbar-nav .nav-item .nav-link{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 600;
+    transition: 0.3s;
+    margin-left: 15px;
+    text-transform: uppercase;
+    padding-bottom:21px;
+}
+.navbar .collapse .navbar-nav .nav-item .nav-link:hover{
+    color:red;
+    border-bottom:3px soid yellow;
+}
+.navbar .collapse .navbar-nav{
+    position: relative;
+}
+.navbar .collapse .navbar-nav::after{
+    content: "";
+    position: absolute;
+    border: 1px solid white;
+    width: 122%;
+    bottom: -1%;
+    left: -4%;
+}
+.navbar .collapse .navbar-nav .nav-item .nav-link{
+    position: relative;
+}
+.navbar .collapse .navbar-nav .nav-item .nav-link::before{
+    content: "";
+    position: absolute;
+    border: 2px solid yellow;
+    width: 0%;
+    bottom: -3%;
+    left: 0%;
+    z-index: 999;
+    opacity:0;
+    transition: 0.7s;
+}
+.navbar .collapse .navbar-nav .nav-item .nav-link:hover::before{
+    opacity:1;
+    width: 104%;
+}
+
+/* ==============================================================================banner_section============================================================= */
+
+.carousel-item{
+    background-image: url("./img/banner.jpg");
+    height: 100vh;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.carousel-item .content h2{
+    font-family: 'Playfair Display', serif;
+    max-width: 100%;
+    font-size: 65px;
+    line-height: 71px;
+    font-weight: 400;
+    color:white;
+    display: inline-block;
+}
+.carousel-item .content p{
+    font-family: 'Poppins', sans-serif;
+    max-width: 100%;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 300;
+    color:white;
+    text-align: center;
+     word-spacing: 10px;
+    letter-spacing: 0.5px;
+    display: inline-block;
+    position: relative;
+}
+.carousel-item .content .banner_pra{
+  
+}
+.carousel-item .content .banner_pra p::before {
+    content: "";
+    position: absolute;
+    background: white;
+    width: 60px;
+    height: 1px;
+    left: -15%;
+    top:50%;
+}
+.carousel-item .content .banner_pra p::after {
+    content: "";
+    position: absolute;
+    background: white;
+    width: 60px;
+    height: 1px;
+    right: -15%;
+    top:50%;
+}
+.carousel-control-prev-icon {
+    background-image: url("./img/left.png");
+    height:35px;
+    width:35px;
+    color:white;
+}
+.carousel-control-next-icon {
+    background-image: url("./img/right.png");
+    height:35px;
+    width:35px;
+    color:white;
+}
+
+/* =======================================================================about_us_section=================================================================== */
+
+.about_us_section{
+    padding:90px 0px 50px 0px;
+}
+.about_us_section .container_about{
+    width: 1050px;
+    max-width: 100%;
+    margin:0 auto;
+    text-align: center;
+    box-sizing:border-box;
+    padding: 0px 20px;
+}
+.about_us_section .sakib_about .about_img img{
+    padding:30px 0px;
+}
+.about_us_section .sakib_about .about_img{
+    position: relative;
+}
+.about_us_section .sakib_about .about_img::before {
+    content: "";
+    position: absolute;
+    background: #8e7037;
+    width: 60px;
+    height: 2px;
+    left: 42%;
+    bottom: 47%;
+}
+.about_us_section .sakib_about .about_img::after {
+    content: "";
+    position: absolute;
+    background: #8e7037;
+    width: 60px;
+    height: 2px;
+    right: 42%;
+    bottom: 47%;
+}
+.about_btn{
+    color:#8e7037;
+    border: 2px solid #8e7037;
+    margin: 50px 0px;
+    max-width: 100%;
+}
+.about_btn:hover{
+    background: #8e7037;
+    color: white;
+    border: 2px solid #8e7037;
+}
+.about_us_section .sakib_about h2{
+    font-family: 'Playfair Display', serif;
+    max-width: 100%;
+    font-size: 48px;
+    line-height: 54px;
+    font-weight: 400;
+}
+.about_us_section .sakib_about p{
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    max-width: 95%;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 300;
+}
+
+
+/* ===========================================================================card_section============================================================= */
+
+.sakib_card {
+    border-top: 2px solid #8e7037;
+    justify-content: end;
+    display: flex;
+    align-items: center;
+    margin-bottom: -6px;
+    text-align: left;
+    max-width: 100%;
+}
+.sakib_card .heading1 h3{
+    font-family: 'Playfair Display', serif;
+    max-width: 100%;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 400;
+}
+.sakib_card .heading2 h2{
+    font-family: 'Playfair Display', serif;
+    max-width: 100%;
+    font-size: 48px;
+    line-height: 54px;
+    font-weight: 400;
+}
+.sakib_card .pra p {
+    font-family: 'Poppins', sans-serif;
+    max-width: 100%;
+    font-size: 16px;
+    line-height: 21px;
+    font-weight: 300;
+    padding: 25px 0px 30px 0px;
+}
+.sakib_card .one{
+    width: 100%;
+    max-width: 600px;
+}
+.sakib_card .video video{
+    max-width: 100%;
+}
+.sakib_card .video{
+    position: relative;
+}
+
+
+
+/* =========================================================================gallery_section============================================================ */
+
+.section_gallery .gallery_title{
+    background: #8e7037;
+}
+.section_gallery .gallery_title h2{
+    padding-top: 60px;
+    font-family: 'Playfair Display', serif;
+    max-width: 100%;
+    font-size: 48px;
+    line-height: 54px;
+    font-weight: 400;
+}
+.section_gallery .gallery_title .gallery_png img{
+    padding: 20px 0px 30px 0px;
+}
+.section_gallery .gallery_title .gallery_png{
+    position: relative;
+}
+
+/* ==============================================================================footer-section============================================================== */
+
+.footer-section .footer-logo .foot-log img{
+    padding: 0 0 70px 0;
+}
+.footer-section{
+    padding: 50px 0 25px 0;
+}
+.footer-section .row .location p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+}
+.footer-section .row .social-icon ul li a .fa-facebook:hover{
+    color: #42a4f5;
+}
+.footer-section .row .social-icon ul li a .fa-instagram:hover{
+    color: #fa5afa;
+}
+.footer-section .row .social-icon ul li a .fa-pinterest-p:hover{
+    color: rgb(250, 82, 82);
+}
+.footer-section .row .social-icon ul li a .fa-square-youtube:hover{
+    color: red;
+}
+
+/* ===============================================================================socket_section=========================================================== */
+
+.socket p{
+    padding: 25px 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    border-top:1px solid gray;
+    color:gray;
+}

@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<!-- -----------------------------------------------------------------------google_fonts cdn----------------------------------------------------- -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+
+<!-- ----------------------------------------------------------------------bootstrap_link------------------------------------------------------- -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- -----------------------------------------------------------------------------css----------------------------------------------------------- -->
+<link rel="stylesheet" href="./ps1.css">
+<link rel="stylesheet" href="./ps1_responsive.css">
+
+  </head>
+  <body>
+<!-- -------------------------------------------------------------------navbar_section----------------------------------------------------------- -->
+
+    <div class="nav_section"> 
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand" href="#"> <img src="./img/logo.png" alt=""> </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item ">
+                <a class="nav-link active pb-22" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link pb-22" href="#">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link pb-22" href="#">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link pb-22" href="#">Videos</a>
+              </li>
+              <li class="nav-item dropdown vertical-align">
+                <a class="nav-link pb-22 dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  About
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action Us</a></li>
+                  <li><a class="dropdown-item" href="#">Faqs</a></li>
+                  <li><a class="dropdown-item" href="#">Testimonials</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link pb-22" href="#">Go Green</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link pb-22" href="#">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <!-- ---------------------------------------------------------------banner_section---------------------------------------------------------------- -->
+
+    <div id="carouselExampleControls" class="carousel slide " data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active position-relative">
+            <div class="content position-absolute top-50 start-50 translate-middle text-center">
+              <div class="banner_heading "> 
+                <h2>REALM OF DESIGN</h2>
+              </div>
+              <div class="banner_pra">
+                <p>If you dream it, we can make it</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item active position-relative">
+            <div class="content position-absolute top-50 start-50 translate-middle text-center">
+              <div class="banner_heading"> 
+                <h2>REALM OF DESIGN</h2>
+              </div>
+              <div class="banner_pra">
+                <p>If you dream it, we can make it</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+<!-- ----------------------------------------------------------------------about_us_section---------------------------------------------------------- -->
+
+
+<section class="about_us_section ">
+  <div class="container_about">
+    <div class="row sakib_about">
+      <h2 class="text-center ">About Us</h2>
+      <div class="about_img">
+        <img src="./img/about_us.jpg" alt="">
+      </div>
+      <p class="text-center">Realm of Design has been designing and creating exquisite architectural details for over 20 years. We bring forth the best in fireplace surround and mantel designs and other architectural concepts for commercial and residential projects in Las Vegas, Los Angeles and across the nation. Our specialty is in artistic, custom, hand-crafted  Fireplace Surrounds, Fireplace Mantels, Kitchen hoods, Counter tops, Columns, Faux Wood Beams, Balusters, Fountains and more.  <br><br>
+
+        Our pieces can transform your space into a Million Dollar Room.  Our custom line of Moldings, trim, shutters  and pavers are sure to create a Front Entry that will let your home stand out the way others only dream about.  We also carry museum quality one-of-a-kind pieces that are considered works of art.  We truly can create or re-create anything.</p>
+    </div>
+    <button type="button" class="btn btn-outline-secondary text-uppercase about_btn">read more...</button>
+    <div class="row sakib_about">
+      <div class="col-4">
+        <div class="thumbnail">
+          <a href="#">
+            <img src="./img/about_us_pic1.jpg" alt="Lights" style="width:100%">
+          </a>
+        </div>
+      </div>
+      <div class="col-4">
+      <div class="thumbnail">
+        <a href="#">
+          <img src="./img/about_us_2.jpg" alt="Lights" style="width:100%">
+        </a>
+      </div>
+    </div>
+    <div class="col-4">
+    <div class="thumbnail">
+      <a href="#">
+        <img src="./img/about_us3.jpg" alt="Lights" style="width:100%">
+      </a>
+    </div>
+  </div>
+  </div>
+  </div>
+</section>
+
+<!-- -----------------------------------------------------------------------card_section------------------------------------------------------------- -->
+
+<div class=" text-center">
+  <div class="row sakib_card ">
+    <div class="col-6 one">
+      <div class="heading1">
+        <h3 class="text-capitalize">Findlay Toyota Presents</h3>
+      </div>
+      <div class="heading2">
+        <h2 class="text-uppercase">REALM OF CARS</h2>
+      </div>
+      <div class="pra">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      </div>
+      <button type="button" class="btn btn-outline-secondary text-uppercase">read more...</button>
+    </div>
+    <div class="col-6">
+      <div class="video">
+        <video src="./pirates of carabian.mp4" controls poster="./img/thambnail.jpg"></video>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- --------------------------------------------------------------------gallery_section-------------------------------------------------------------- -->
+
+<div class="section_gallery"> 
+    <div class="gallery_title">
+      <h2 class="text-center text-uppercase">Gallery</h2>
+      <div class="gallery_png text-center">
+      <img src="./img/gallery_img.png" alt="">
+      </div>
+    </div>
+      <div class="row  sakib_gallery">
+        <div class="col-3"><img src="./img/gallery_pic1.jpg" alt="" style="width:100%"></div>
+        <div class="col-3"><img src="./img/gallery_pic2.jpg" alt="" style="width:100%"></div>
+        <div class="col-3"><img src="./img/gallery_pic3.jpg" alt="" style="width:100%"></div>
+        <div class="col-3"><img src="./img/gallery_pic4.jpg" alt="" style="width:100%"></div>
+      </div>
+      <div class="row sakib_gallery">
+        <div class="col-3"><img src="./img/gallery_pic5.jpg" alt="" style="width:100%"></div>
+        <div class="col-3"><img src="./img/gallery_pic6.jpg" alt="" style="width:100%"></div>
+        <div class="col-3"><img src="./img/gallery_pic7.jpg" alt="" style="width:100%"></div>
+        <div class="col-3"><img src="./img/gallery_pic8.jpg" alt="" style="width:100%"></div>
+      </div>
+      <div class="row sakib_gallery">
+        <div class="col-3"><img src="./img/gallery_pic9.jpg" alt="" style="width:100%"></div>
+        <div class="col-3"><img src="./img/gallery_pic10.jpg" alt="" style="width:100%"></div>
+        <div class="col-3"><img src="./img/gallery_pic11.jpg" alt="" style="width:100%"></div>
+        <div class="col-3"><img src="./img/gallery_pic12.jpg" alt="" style="width:100%"></div>
+      </div>
+</div>
+
+<!-- --------------------------------------------------------------------footer_section------------------------------------------------------------- -->
+
+<footer class="footer-section bg-dark">
+  <div class="container text-center">
+    <div class="footer-logo text-center">
+      <div class="foot-log">
+        <img src="./img/fooooooooooooooooooooooooooo.png" alt="">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-2">
+        <div class="social-icon">
+          <ul class="d-flex ">
+            <li><a href="" class="pe-3 fs-5 text-white"> <i class="fa-brands fa-facebook"></i></a></li>
+            <li><a href="" class="pe-3 fs-5 text-white"><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="" class="pe-3 fs-5 text-white"><i class="fa-brands fa-pinterest-p"></i></a></li>
+            <li><a href="" class="fs-5 text-white"><i class="fa-brands fa-square-youtube"></i></a></li>
+          </ul>
+        </div>
+
+      </div>
+      <div class="col-sm-4">
+        <div class="location text-center">
+          <p class="text-white">1188 Center Point Dr. Henderson, NV 89074
+          </p>
+        </div>
+      </div>
+
+      <div class="col-sm-4 text-center">
+        <div class="contuct">
+          <ul>
+            <li><a href="tel:7025661188" class="text-white text-decoration-none">tel: (702) 566-1188</a></li>
+            <li><a href="fax:7025661188" class="text-white text-decoration-none">fax: (702) 566-1188</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-sm-2 text-end">
+        <div class="footer">
+          <a href=""><img src="./img/footer.png" alt=""></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- ----------------------------------------------------------------------socket_section--------------------------------------------------------- -->
+
+<section class="socket bg-dark">
+    <div class="row p-0 m-0">
+      <div class="col-12">
+        <p class="text-white text-center">1188 Center Point Dr. Henderson, NV 89074
+        </p>
+      </div>
+    </div>
+</section>
+
+<!-- ------------------------------------------------------------------------js_file------------------------------------------------------------------- -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
